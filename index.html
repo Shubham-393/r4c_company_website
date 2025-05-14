@@ -5,153 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R4C Tech - Intelligent Decision Support Systems</title>
     
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="R4C Tech specializes in intelligent decision support systems for defense and aerospace, supporting national defense, aerospace innovation, and infrastructure resilience.">
+    <meta name="keywords" content="R4C Tech, intelligent systems, defense, aerospace, cyber security, threat detection, national defense">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/enhancements.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animation.css">
+    
+    <!-- Open Graph tags for social sharing -->
+    <meta property="og:title" content="R4C Tech - Intelligent Decision Support Systems">
+    <meta property="og:description" content="R4C Tech specializes in intelligent decision support systems for defense and aerospace, supporting national defense, aerospace innovation, and infrastructure resilience.">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://r4ctech.com">
+    <meta property="og:type" content="website">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">R4C Tech</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" title="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#research">Research & Technologies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#capabilities">Capabilities</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#collaborations">Collaborations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#opportunities">Work With Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!-- Load Header -->
+    <div id="header-container"></div>
 
-    <!-- Hero Section -->
-    <header id="home" class="hero-section d-flex align-items-center">
-        <div class="container text-center text-white">
-            <h1 class="display-3 fw-bold mb-4">Intelligent Decision Support Systems</h1>
-            <p class="lead mb-5"><b>R4C Tech LLC is dedicated to developing real-time, intelligent systems for the detection and mitigation of cyber and physical threats. We support national defense, aerospace innovation, and critical infrastructure resilience through research-driven product development and systems engineering.</b></p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                <a href="#research" class="btn btn-primary btn-lg px-4 me-md-2">Our Technologies</a>
-                <a href="#contact" class="btn btn-outline-light btn-lg px-4">Contact Us</a>
-            </div>
+    <!-- Hero Section with 3D/Video Background -->
+    <section class="hero-section cosmic-bg">
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <!-- <source src="images/tech-background.mp4" type="video/mp4"> -->
+                <source src="images/company-culture.mp4" type="video/mp4">
+                <!-- Fallback image if video doesn't load -->
+            </video>
+            <div class="video-background-overlay"></div>
         </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center mb-5">
-                    <h2 class="section-title">About Us</h2>
-                    <hr class="divider my-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <h1 class="animated fadeIn">Intelligent Systems for Defense & Aerospace</h1>
+                    <p class="animated fadeIn" data-delay="100">
+                        R4C Tech develops real-time intelligent systems for cyber and physical threat mitigation, 
+                        supporting national defense, aerospace innovation, and infrastructure resilience.
+                    </p>
+                    <div class="d-flex gap-3 animated fadeIn" data-delay="200">
+                        <a href="capabilities.html" class="btn btn-primary pulse">Our Capabilities</a>
+                        <a href="contact.html" class="btn btn-outline-primary">Contact Us</a>
+                    </div>
                 </div>
+                <!-- <div class="col-lg-6 d-none d-lg-block">
+                    <div class="float-element">
+                        <img src="images/hero-illustration.webp" alt="Intelligent Systems" class="img-fluid">
+                    </div>
+                </div> -->
+                <div class="col-lg-6 d-none d-lg-block">
+                                                       
+                    <spline-viewer url="https://prod.spline.design/E0NdNqhFCR2UViSB/scene.splinecode" loading="eager"></spline-viewer>
+                </div>
+                
             </div>
-            <div class="row about-cards">
-                <div class="col-lg-4 mb-4">
-                    <div class="about-card founder-card animate-on-scroll">
+        </div>
+    </section>
+
+    <!-- About Overview Section -->
+    <section class="py-5 subtle-motion">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2>Our Expertise</h2>
+                <span class="heading-line"></span>
+                <p class="lead">Delivering cutting-edge solutions for the most complex challenges in defense and aerospace.</p>
+            </div>
+            <div class="row" data-sequential-animation>
+                <div class="col-md-4 mb-4" data-animation-item>
+                    <div class="about-card interactive-card">
                         <div class="about-card-header">
                             <div class="icon-container">
-                                <i class="fas fa-user-tie"></i>
+                                <i class="fas fa-shield-alt"></i>
                             </div>
-                            <h3 class="about-card-title">Our Founder</h3>
+                            <h3 class="about-card-title">Threat Detection</h3>
                         </div>
                         <div class="about-card-body">
-                            <div class="founder-image mb-4">
-                                <img src="./images/founder.jpeg" alt="Dr. Jubilee Prasad Rao" class="img-fluid rounded-circle">
-                            </div>
-                            <h4 class="founder-name">Dr. Jubilee Prasad Rao, PhD</h4>
-                            <p>Strategic Aerospace R&D Leader, 
-                                National security innovator with expertise in aerospace systems, cyberphysical threat detection, and intelligent defense algorithms. His work has supported the U.S. Space Force, NASA, and the Department of Defense.</p>
-                            <div class="social-links">
-                                <a href="https://www.linkedin.com/in/jubileepr/" target="_blank" class="social-link" title="LinkedIn Profile" rel="noopener noreferrer">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="#" class="social-link" title="Portfolio">
-                                    <i class="fas fa-globe"></i>
-                                </a>
-                                <a href="mailto:founder@r4ctech.com" class="social-link" title="Email">
-                                    <i class="fas fa-envelope"></i>
-                                </a>
-                            </div>
+                            <p>Advanced systems that identify and analyze potential threats in real-time, enhancing situational awareness and response capabilities.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="about-card mission-card animate-on-scroll" data-delay="200">
+                <div class="col-md-4 mb-4" data-animation-item>
+                    <div class="about-card mission-card interactive-card">
+                        <div class="about-card-header">
+                            <div class="icon-container">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3 class="about-card-title">AI-Powered Analysis</h3>
+                        </div>
+                        <div class="about-card-body">
+                            <p>Leveraging machine learning and artificial intelligence to process complex data and deliver actionable insights in critical situations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-animation-item>
+                    <div class="about-card vision-card interactive-card">
                         <div class="about-card-header">
                             <div class="icon-container">
                                 <i class="fas fa-rocket"></i>
                             </div>
-                            <h3 class="about-card-title">Our Mission</h3>
+                            <h3 class="about-card-title">Aerospace Systems</h3>
                         </div>
                         <div class="about-card-body">
-                            <p class="mission-statement">To develop intelligent technologies that secure the future of aerospace and infrastructure systems.</p>
-                            <div class="mission-details">
-                                <div class="mission-point">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Create innovative defense solutions</span>
-                                </div>
-                                <div class="mission-point">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Enhance national security capabilities</span>
-                                </div>
-                                <div class="mission-point">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Develop cutting-edge cyberphysical systems</span>
-                                </div>
-                                <div class="mission-point">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Support critical infrastructure resilience</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="about-card vision-card animate-on-scroll" data-delay="400">
-                        <div class="about-card-header">
-                            <div class="icon-container">
-                                <i class="fas fa-eye"></i>
-                            </div>
-                            <h3 class="about-card-title">Our Vision</h3>
-                        </div>
-                        <div class="about-card-body">
-                            <p class="vision-statement">To be a leading innovator at the intersection of AI, cyberphysical systems, and national defense.</p>
-                            
-                            <p class="vision-description mt-3">
-                                We envision a future where intelligent systems seamlessly integrate with physical infrastructure, enhancing security and operational efficiency across defense, aerospace, and critical sectors.
-                            </p>
+                            <p>Specialized solutions for aerospace applications including launch detection, trajectory analysis, and mission-critical decision support.</p>
                         </div>
                     </div>
                 </div>
@@ -159,381 +126,186 @@
         </div>
     </section>
 
-    <!-- Research & Technologies Section -->
-    <section id="research" class="bg-light py-5">
+    <!-- Technologies Section -->
+    <section class="bg-light py-5 gradient-animation">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center mb-5">
-                    <h2 class="section-title">Research & Technologies</h2>
-                    <hr class="divider my-4">
-                </div>
+            <div class="section-heading text-center">
+                <h2>Our Core Technologies</h2>
+                <span class="heading-line"></span>
+                <p class="lead">Innovative solutions powered by cutting-edge technologies.</p>
             </div>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="tech-card animate-on-scroll">
+            <div class="row" data-sequential-animation>
+                <div class="col-lg-6 mb-4" data-animation-item>
+                    <div class="tech-card">
                         <div class="tech-card-icon">
                             <i class="fas fa-satellite"></i>
                         </div>
-                        <div class="tech-card-body">
-                            <h3 class="tech-card-title">Rocket Launch Detection</h3>
-                            <p class="tech-card-text">Advanced systems for seismic and infrasound monitoring to detect and classify rocket launches with high precision.</p>
-                            <ul class="tech-list">
-                                <li><i class="fas fa-check-circle"></i> Seismic monitoring</li>
-                                <li><i class="fas fa-check-circle"></i> Infrasound detection</li>
-                                <!-- <li><i class="fas fa-check-circle"></i> SDA TAP Lab Deployment</li> -->
-                            </ul>
-                        </div>
+                        <h3 class="tech-card-title">Rocket Launch Detection</h3>
+                        <p class="tech-card-text">Advanced systems for early detection and tracking of rocket launches using multi-spectrum sensors and proprietary algorithms.</p>
+                        <ul class="tech-list">
+                            <li><i class="fas fa-check-circle"></i> Real-time detection capabilities</li>
+                            <li><i class="fas fa-check-circle"></i> Multi-sensor data fusion</li>
+                            <li><i class="fas fa-check-circle"></i> Trajectory prediction analytics</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="tech-card animate-on-scroll" data-delay="200">
+                <div class="col-lg-6 mb-4" data-animation-item>
+                    <div class="tech-card">
                         <div class="tech-card-icon">
-                            <i class="fas fa-shield-alt"></i>
+                            <i class="fas fa-chart-network"></i>
                         </div>
-                        <div class="tech-card-body">
-                            <h3 class="tech-card-title">Cyberphysical Threat Detection</h3>
-                            <p class="tech-card-text">Innovative solutions for protecting critical infrastructure, ground vehicles, UAVs, and satellite systems.</p>
-                            <ul class="tech-list">
-                                <li><i class="fas fa-check-circle"></i> Ground vehicle systems (Army)</li>
-                                <li><i class="fas fa-check-circle"></i> UAV/satellite protection (NASA)</li>
-                                <li><i class="fas fa-check-circle"></i> Infrastructure security</li>
-                            </ul>
-                        </div>
+                        <h3 class="tech-card-title">Threat Detection Systems</h3>
+                        <p class="tech-card-text">Intelligent systems that identify, classify, and assess potential threats to critical infrastructure and defense assets.</p>
+                        <ul class="tech-list">
+                            <li><i class="fas fa-check-circle"></i> Pattern recognition algorithms</li>
+                            <li><i class="fas fa-check-circle"></i> Anomaly detection</li>
+                            <li><i class="fas fa-check-circle"></i> Predictive threat modeling</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="tech-card animate-on-scroll" data-delay="400">
+                <div class="col-lg-6 mb-4" data-animation-item>
+                    <div class="tech-card">
                         <div class="tech-card-icon">
-                            <i class="fas fa-cogs"></i>
+                            <i class="fas fa-robot"></i>
                         </div>
-                        <div class="tech-card-body">
-                            <h3 class="tech-card-title">Battle Management Tools</h3>
-                            <p class="tech-card-text">Sophisticated event processing workflows and space asset monitoring systems for defense applications.</p>
-                            <ul class="tech-list">
-                                <li><i class="fas fa-check-circle"></i> Event processing workflows</li>
-                                <li><i class="fas fa-check-circle"></i> Space asset monitoring</li>
-                                <li><i class="fas fa-check-circle"></i> Defense operations support</li>
-                            </ul>
-                        </div>
+                        <h3 class="tech-card-title">Autonomous Decision Support</h3>
+                        <p class="tech-card-text">AI-powered systems that provide actionable intelligence and decision support for time-critical scenarios.</p>
+                        <ul class="tech-list">
+                            <li><i class="fas fa-check-circle"></i> Machine learning algorithms</li>
+                            <li><i class="fas fa-check-circle"></i> Cognitive computing</li>
+                            <li><i class="fas fa-check-circle"></i> Human-AI collaboration interfaces</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-6 mt-4">
-                    <div class="tech-card animate-on-scroll" data-delay="600">
+                <div class="col-lg-6 mb-4" data-animation-item>
+                    <div class="tech-card">
                         <div class="tech-card-icon">
-                            <i class="fas fa-brain"></i>
+                            <i class="fas fa-shield-virus"></i>
                         </div>
-                        <div class="tech-card-body">
-                            <h3 class="tech-card-title">R&D Tools</h3>
-                            <p class="tech-card-text">Cutting-edge research and development in machine learning algorithms and real-time data fusion.</p>
-                            <ul class="tech-list">
-                                <li><i class="fas fa-check-circle"></i> ML algorithms</li>
-                                <li><i class="fas fa-check-circle"></i> Real-time data fusion</li>
-                                <li><i class="fas fa-check-circle"></i> Signal processing</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4">
-                    <div class="tech-card animate-on-scroll" data-delay="800">
-                        <div class="tech-card-icon">
-                            <i class="fas fa-project-diagram"></i>
-                        </div>
-                        <div class="tech-card-body">
-                            <h3 class="tech-card-title">Systems Engineering</h3>
-                            <p class="tech-card-text">Comprehensive systems architecture and model-based engineering for complex integrated solutions.</p>
-                            <ul class="tech-list">
-                                <li><i class="fas fa-check-circle"></i> Model-based engineering</li>
-                                <li><i class="fas fa-check-circle"></i> Systems architecture</li>
-                                <li><i class="fas fa-check-circle"></i> Integration services</li>
-                            </ul>
-                        </div>
+                        <h3 class="tech-card-title">Cyber Defense Systems</h3>
+                        <p class="tech-card-text">Proactive security solutions that protect critical infrastructure from cyber threats and attacks.</p>
+                        <ul class="tech-list">
+                            <li><i class="fas fa-check-circle"></i> Real-time threat monitoring</li>
+                            <li><i class="fas fa-check-circle"></i> Zero-day vulnerability detection</li>
+                            <li><i class="fas fa-check-circle"></i> Automated response mechanisms</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Capabilities Section -->
-    <section id="capabilities" class="py-5">
+    <!-- Capabilities Preview Section -->
+    <section class="py-5 subtle-motion">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center mb-5">
-                    <h2 class="section-title">Capabilities</h2>
-                    <hr class="divider my-4">
-                    <p class="lead capabilities-intro">Our advanced technical capabilities enable us to deliver cutting-edge solutions for complex defense and aerospace challenges.</p>
-                </div>
+            <div class="section-heading text-center">
+                <h2>Our Capabilities</h2>
+                <span class="heading-line"></span>
+                <p class="lead">End-to-end solutions for the most demanding challenges in defense and aerospace.</p>
             </div>
-            <div class="row capability-cards">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="capability-card animate-on-scroll">
+            <div class="row" data-sequential-animation>
+                <div class="col-md-4 mb-4" data-animation-item>
+                    <div class="capability-card">
                         <div class="capability-icon">
-                            <i class="fas fa-rocket"></i>
+                            <i class="fas fa-database"></i>
                         </div>
-                        <div class="capability-content">
-                            <h3 class="capability-title">Rapid Prototyping</h3>
-                            <p class="capability-description">Development of intelligent detection systems with quick turnaround times and iterative improvements.</p>
-                            <div class="capability-progress">
-                                <div class="progress">
-                                    <div class="progress-bar bg-info" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="95" aria-valuemax="100"></div>
-                                </div>
-                                <span class="progress-text">95% Efficiency</span>
+                        <h3 class="capability-title">Data Analytics</h3>
+                        <p class="capability-description">Advanced analytics for processing large volumes of complex data to extract actionable intelligence.</p>
+                        <div class="capability-progress">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+                            <span class="progress-text">Expertise Level: 95%</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="capability-card animate-on-scroll" data-delay="100">
+                <div class="col-md-4 mb-4" data-animation-item>
+                    <div class="capability-card">
                         <div class="capability-icon">
-                            <i class="fas fa-sitemap"></i>
+                            <i class="fas fa-code"></i>
                         </div>
-                        <div class="capability-content">
-                            <h3 class="capability-title">Systems Architecture</h3>
-                            <p class="capability-description">Expert design and implementation of model-based engineering for complex systems.</p>
-                            <div class="capability-progress">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <span class="progress-text">90% Precision</span>
+                        <h3 class="capability-title">Software Development</h3>
+                        <p class="capability-description">Custom software solutions designed for mission-critical applications in defense and aerospace.</p>
+                        <div class="capability-progress">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+                            <span class="progress-text">Expertise Level: 90%</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="capability-card animate-on-scroll" data-delay="200">
-                        <div class="capability-icon">
-                            <i class="fas fa-network-wired"></i>
-                        </div>
-                        <div class="capability-content">
-                            <h3 class="capability-title">Sensor Network Integration</h3>
-                            <p class="capability-description">Seamless integration of infrasound, seismic, EO, and other sensor technologies.</p>
-                            <div class="capability-progress">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 98%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <span class="progress-text">98% Reliability</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="capability-card animate-on-scroll" data-delay="300">
+                <div class="col-md-4 mb-4" data-animation-item>
+                    <div class="capability-card">
                         <div class="capability-icon">
                             <i class="fas fa-microchip"></i>
                         </div>
-                        <div class="capability-content">
-                            <h3 class="capability-title">Algorithm Development</h3>
-                            <p class="capability-description">Creation of sophisticated algorithms for real-time signal processing and data analysis.</p>
-                            <div class="capability-progress">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <span class="progress-text">92% Accuracy</span>
+                        <h3 class="capability-title">Systems Integration</h3>
+                        <p class="capability-description">Seamless integration of diverse technologies and platforms into unified, effective solutions.</p>
+                        <div class="capability-progress">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+                            <span class="progress-text">Expertise Level: 85%</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="capability-card animate-on-scroll" data-delay="400">
-                        <div class="capability-icon">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <div class="capability-content">
-                            <h3 class="capability-title">Cybersecurity Tools</h3>
-                            <p class="capability-description">Development of robust cybersecurity solutions for space and terrestrial systems.</p>
-                            <div class="capability-progress">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 94%;" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <span class="progress-text">94% Protection</span>
+            </div>
+            <div class="text-center mt-4">
+                <a href="capabilities.html" class="btn btn-primary">View All Capabilities</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collaborations Preview -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2>Our Collaborations</h2>
+                <span class="heading-line"></span>
+                <p class="lead">Partnering with industry leaders to develop next-generation solutions.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-md-3 col-6 mb-4">
+                            <div class="partner-logo">
+                                <img src="images/nasa_logo.svg" alt="Partner 1" class="img-fluid">
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="capability-card animate-on-scroll" data-delay="500">
-                        <div class="capability-icon">
-                            <i class="fas fa-handshake"></i>
+                        <div class="col-md-3 col-6 mb-4">
+                            <div class="partner-logo">
+                                <img src="images/sda_tap_lab_logo.jpeg" alt="Partner 2" class="img-fluid">
+                            </div>
                         </div>
-                        <div class="capability-content">
-                            <h3 class="capability-title">Research Collaborations</h3>
-                            <p class="capability-description">Partnerships with organizations to advance technological capabilities and innovation.</p>
-                            <div class="capability-progress">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 89%;" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <span class="progress-text">89% Synergy</span>
+                        <div class="col-md-3 col-6 mb-4">
+                            <div class="partner-logo">
+                                <img src="images/dtra_logo.svg" alt="Partner 3" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mb-4">
+                            <div class="partner-logo">
+                                <img src="images/us_army_logo.svg" alt="Partner 4" class="img-fluid">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-4">
-                <a href="#contact" class="btn btn-primary">Discuss Your Requirements</a>
+                <a href="collaborations.html" class="btn btn-primary">View All Collaborations</a>
             </div>
-        </div>
-        <div class="capability-bg-elements">
-            <div class="bg-element-1"></div>
-            <div class="bg-element-2"></div>
-            <div class="bg-element-3"></div>
         </div>
     </section>
 
-    <!-- Collaborations Section -->
-    <section id="collaborations" class="bg-light py-5">
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center mb-5">
-                    <h2 class="section-title">Collaborations</h2>
-                    <hr class="divider my-4">
-                    <p class="lead">These organizations have supported or collaborated on key R&D efforts led by our founder. <i>(Click any card below to see more.)</i></p>
-                </div>
-            </div>
-            <div class="collaborations-wrapper">
-                <div class="row text-center justify-content-center collab-cards-container">
-                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
-                        <div class="partner-card animate-on-scroll">
-                            <div class="partner-card-inner">
-                                <div class="partner-card-front">
-                                    <div class="logo-container mb-3">
-                                        <img src="https://media.licdn.com/dms/image/v2/D560BAQGk4aCiYFTong/company-logo_100_100/company-logo_100_100/0/1712758673539?e=1752710400&v=beta&t=BvK67LyCQgAw3x7WphC_xdFE7QOaJQyvZf-VBFt84hc" alt="USSF SDA TAP Lab" class="img-fluid mb-3">
-                                    </div>
-                                    <h3 class="h5">USSF SDA TAP Lab</h3>
-                                    <p class="partner-description ">Space Domain Awareness Tactical Applications Lab</p>
-                                    <div class="partner-badge">
-                                        <span>Space Defense</span>
-                                    </div>
-                                </div>
-                                <div class="partner-card-back">
-                                    <h4>Collaboration Focus</h4>
-                                    <ul class="partner-collab-list">
-                                        <li><i class="fas fa-check-circle"></i> Rocket Launch Detection</li>
-                                        <li><i class="fas fa-check-circle"></i> Space Surveillance</li>
-                                        <li><i class="fas fa-check-circle"></i> Threat Analysis</li>
-                                    </ul>
-                                    <div class="partner-year">Since 2021</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
-                        <div class="partner-card animate-on-scroll" data-delay="200">
-                            <div class="partner-card-inner">
-                                <div class="partner-card-front">
-                                    <div class="logo-container mb-3">
-                                        <img src="./images/nasa_logo.svg" alt="NASA PCoE" class="img-fluid mb-3">
-                                    </div>
-                                    <h3 class="h5">NASA PCoE</h3>
-                                    <p class="partner-description ">Propulsion Center of Excellence</p>
-                                    <div class="partner-badge">
-                                        <span>Space Technology</span>
-                                    </div>
-                                </div>
-                                <div class="partner-card-back">
-                                    <h4>Collaboration Focus</h4>
-                                    <ul class="partner-collab-list">
-                                        <li><i class="fas fa-check-circle"></i> Propulsion Research</li>
-                                        <li><i class="fas fa-check-circle"></i> UAV Protection</li>
-                                        <li><i class="fas fa-check-circle"></i> Satellite Systems</li>
-                                    </ul>
-                                    <div class="partner-year">Since 2019</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
-                        <div class="partner-card animate-on-scroll" data-delay="400">
-                            <div class="partner-card-inner">
-                                <div class="partner-card-front">
-                                    <div class="logo-container mb-3">
-                                        <img src="./images/dtra_logo.svg" alt="DTRA" class="img-fluid mb-3">
-                                    </div>
-                                    <h3 class="h5">DTRA</h3>
-                                    <p class="partner-description ">Defense Threat Reduction Agency</p>
-                                    <div class="partner-badge">
-                                        <span>Threat Reduction</span>
-                                    </div>
-                                </div>
-                                <div class="partner-card-back">
-                                    <h4>Collaboration Focus</h4>
-                                    <ul class="partner-collab-list">
-                                        <li><i class="fas fa-check-circle"></i> Threat Detection</li>
-                                        <li><i class="fas fa-check-circle"></i> Counter-measures</li>
-                                        <li><i class="fas fa-check-circle"></i> Defense Systems</li>
-                                    </ul>
-                                    <div class="partner-year">Since 2020</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
-                        <div class="partner-card animate-on-scroll" data-delay="600">
-                            <div class="partner-card-inner">
-                                <div class="partner-card-front">
-                                    <div class="logo-container mb-3">
-                                        <img src="./images/us_army_logo.svg" alt="U.S. Army" class="img-fluid mb-3">
-                                    </div>
-                                    <h3 class="h5">U.S. Army</h3>
-                                    <p class="partner-description ">Research & Development Division</p>
-                                    <div class="partner-badge">
-                                        <span>Ground Systems</span>
-                                    </div>
-                                </div>
-                                <div class="partner-card-back">
-                                    <h4>Collaboration Focus</h4>
-                                    <ul class="partner-collab-list">
-                                        <li><i class="fas fa-check-circle"></i> Ground Vehicle Systems</li>
-                                        <li><i class="fas fa-check-circle"></i> Logistics Technology</li>
-                                        <li><i class="fas fa-check-circle"></i> Field Operations</li>
-                                    </ul>
-                                    <div class="partner-year">Since 2018</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-8 mx-auto text-center">
-                    <div class="collaboration-cta p-4 rounded animate-on-scroll">
-                        <h3 class="mb-3">Interested in Collaborating with Us?</h3>
-                        <p>We're always looking for new partners in defense, aerospace, and technology sectors.</p>
-                        <a href="#contact" class="btn btn-outline-primary">Start a Conversation</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="collab-bg-elements">
-            <div class="collab-bg-1"></div>
-            <div class="collab-bg-2"></div>
-        </div>
-    </section>
-
-    <!-- Opportunities Section -->
-    <section id="opportunities" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center mb-5">
-                    <h2 class="section-title">Work With Us</h2>
-                    <hr class="divider my-4">
-                    <p class="lead">We are currently seeking interns and contractors passionate about national security, aerospace innovation, and AI-driven systems.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="card-title">Internships</h3>
-                            <p class="card-text">Join our team as an intern and work on cutting-edge technologies in the fields of national security, aerospace, and artificial intelligence. Gain valuable experience and contribute to meaningful projects.</p>
-                            <a href="#contact" class="btn btn-primary">Apply Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="card-title">Contract Work</h3>
-                            <p class="card-text">We're looking for collaborators, ML engineers, and developers to join our projects. If you have expertise in machine learning, systems engineering, or software development, we want to hear from you.</p>
-                            <a href="#contact" class="btn btn-primary">Contact Us</a>
+                <div class="col-lg-10 mx-auto">
+                    <div class="card bg-gradient-primary text-white p-5">
+                        <div class="card-body text-center">
+                            <h2 class="mb-4">Ready to enhance your defense capabilities?</h2>
+                            <p class="lead mb-4">Contact our team to discuss how our intelligent systems can support your mission.</p>
+                            <a href="contact.html" class="btn btn-accent btn-lg">Get in Touch</a>
                         </div>
                     </div>
                 </div>
@@ -541,76 +313,33 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="bg-light py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center mb-5">
-                    <h2 class="section-title">Contact Us</h2>
-                    <hr class="divider my-4">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <form action="https://formsubmit.co/contact@r4ctech.com" method="POST" class="p-4 bg-white rounded shadow">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="subject" class="form-label">Subject</label>
-                            <input type="text" class="form-control" id="subject" name="subject">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-8 mx-auto text-center">
-                    <div class="contact-info">
-                        <div class="mb-3">
-                            <i class="fas fa-envelope text-primary me-2"></i>
-                            <a href="mailto:contact@r4ctech.com">contact@r4ctech.com</a>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fab fa-linkedin text-primary me-2"></i>
-                            <a href="https://www.linkedin.com/in/jubileepr/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h3 class="h5">R4C Tech LLC</h3>
-                    <p>Intelligent Decision Support Systems</p>
-                </div>
-                <div class="col-lg-6 text-lg-end">
-                    <p>&copy; 2025 R4C Tech LLC. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- Load Footer -->
+    <div id="footer-container"></div>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Particles.js for background effects -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
     <!-- Custom JS -->
-    <script src="js/scripts.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.94/build/spline-viewer.js"></script>
+
+    <!-- Load header and footer -->
+    <script>
+        $(function() {
+            $("#header-container").load("header.html", function() {
+                // Activate current page in navigation
+                document.getElementById("nav-home").classList.add("active");
+            });
+            $("#footer-container").load("footer.html");
+        });
+    </script>
 </body>
 </html>

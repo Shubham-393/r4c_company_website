@@ -1,0 +1,43 @@
+:root {
+  /* Colors */
+  --primary: #4d1e82;       /* Quantum Indigo (primary) */
+  --primary-light: #7339bd; /* Lighter indigo */
+  --primary-dark: #310a5d;  /* Darker indigo */
+  --accent: #ffc107;        /* Amber accent for call-to-actions */
+  --dark: #1a0735;          /* Very dark indigo */
+  --light: #f8f9fa;         /* Light gray/white for light backgrounds */
+  --white: #ffffff;         /* Pure white */
+  --body-bg: #fcfbff;       /* Very light indigo tint */
+  --text-color: #2a2a35;    /* Dark slate for text */
+  --text-muted: #6c6c7c;    /* Muted slate */
+  --border-color: #e2dbed;  /* Light indigo border */
+
+  /* Gradients */
+  --primary-gradient: linear-gradient(135deg, #4d1e82, #7339bd);
+  --dark-gradient: linear-gradient(135deg, #150629, #1a0735);
+
+  /* Typography */
+  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-headings: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-size-base: 1rem;
+  --line-height-base: 1.6;
+
+  /* Spacing */
+  --section-spacing: 5rem;
+
+  /* Border radius */
+  --border-radius: .25rem;
+  --border-radius-lg: .5rem;
+
+  /* Box shadows */
+  --box-shadow: 0 .5rem 1.5rem rgba(26, 7, 53, .08);
+  --box-shadow-lg: 0 1rem 3rem rgba(26, 7, 53, .15);
+
+  /* Navbar */
+  --navbar-height: 80px;
+  --navbar-padding-y: 1rem;
+
+  /* Transitions */
+  --transition-base: all .3s ease-in-out;
+  --transition-transform: transform .3s ease-in-out;
+} 
